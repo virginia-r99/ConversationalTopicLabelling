@@ -17,7 +17,7 @@ We made use of the following Python libraries for this project:
 
 * **Transformers (version 4.26.1)**: Provides APIs and tools to easily download and train state-of-the-art pre-trained neural models.
 * **Sentence Transformers (version 2.2.2)**: Provides a framework for state-of-the-art sentence, text, and image embeddings.
-* **Numpy (version 1.21.1)**: Provides support for large, multi-dimensional arrays and matrices, along with a large collection of high-level mathematical functions to operate on these arrays.
+* **Numpy (version 1.21.5)**: Provides support for large, multi-dimensional arrays and matrices, along with a large collection of high-level mathematical functions to operate on these arrays.
 * **Os (Python 3.9 version)**: Provides a portable way of using operating system dependent functionality.
 * **Torch (version 1.13.1)**: Provides tensor computation with strong GPU acceleration and Deep Neural Networks built on a tape-based autograd system.
 * **Pandas (version 1.4.4)**: Provides an open-source data analysis and manipulation tool.
