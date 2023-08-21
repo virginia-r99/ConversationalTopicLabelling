@@ -25,7 +25,7 @@ We made use of the following Python libraries for this project:
 
 
 ## Files used to evaluate the proposed approach:
-### Code files, in order of use:
+### Code files _(in "Code" folder)_, in order of use:
 
 **_1._ Conv_Models_answers.ipynb**→ Jupyter Notebook to generate the Conversational Models' Answers as topic labels. 
 
@@ -41,7 +41,7 @@ _Note: The ChatGPT answers were obtained manually directly from OpenAI's ChatGPT
 
 To employ these files, please follow the indications presented in the coments and descriptions of each Python Notebook presented.
 
-### Topic models file:
+### Topic models file _(in "Code" folder)_:
 
 **topics_20news.json** → JSON file that contains the 20newsgroup dataset topic models provided by [LibrAIry](https://librairy.github.io). 
 
