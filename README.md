@@ -56,6 +56,84 @@ To employ these files, please follow the indications presented in the coments an
 * **Bart-tl_Evaluation.xlsx** → Presents the similarity results and comparison of _CPTL_ best performing results with [BART-TL](https://aclanthology.org/2021.eacl-main.121).
 * **topic_rel_evaluation.xlsx** → Presents the similarity and euclidean distance results of the relationship between the ground truth label of the topic models and the topic words used to describe them.
 
+
+# Setting Up the CPTL Conda Environment and Deploying a Jupyter Notebook
+
+This guide will walk you through the process of creating a Conda environment called "CPTL" using a `requirements.txt` file and deploying a Python notebook in Jupyter notebooks using this environment.
+
+## Prerequisites
+
+- _Anaconda_ or _Miniconda_ installed on your system.
+
+## Creating the CPTL Conda Environment
+
+1. Open a terminal or command prompt.
+
+2. Navigate to the root directory of your project (where your `requirements.txt` file is located).
+
+3. Create the `CPTL` Conda environment by running the following command:
+
+   ```bash
+   conda create --name CPTL python=3.9
+   ```
+
+   Replace `3.9` with your desired Python version if necessary.
+
+4. Activate the `CPTL` environment:
+
+   ```bash
+   conda activate CPTL
+   ```
+
+5. Install the required packages listed in the `requirements.txt` file using pip, given that some of the libraries' versions used are not available in Conda:
+
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+## Deploying a Python Notebook in Jupyter Notebooks
+
+1. Make sure the `CPTL` Conda environment is activated (if not, run `conda activate CPTL`).
+
+3. Launch Jupyter Notebook by running:
+
+   ```bash
+   jupyter notebook
+   ```
+
+   This will open a web browser with the Jupyter Notebook interface.
+
+   _You may need to install jupyter notebook and ipywidgets to be able to run the notebooks in Jupyter Notebook. Install these dependencies by running:_
+
+   ```bash
+   pip install notebook
+   ```
+
+   ```bash
+   pip install ipywidgets
+   ```
+
+5. Navigate to the directory where your Jupyter notebook (`*.ipynb`) is located.
+
+6. Click on the notebook file to open it in Jupyter.
+
+7. In the Jupyter interface, select the `CPTL` kernel as the Python environment for your notebook. You can do this from the "Kernel" menu.
+
+8. You can now run and work with your Python notebook using the `CPTL` environment.
+
+9. Remember to save your notebook after making changes.
+
+## Deactivating the CPTL Environment
+
+When you're done working in the `CPTL` environment, you can deactivate it by running:
+
+```bash
+conda deactivate
+```
+
+This will return you to the base Conda environment or whichever environment you were previously using.
+
+
 # Contact Information
 
 If you have any questions, suggestions, or need further information, feel free to reach out to me:
